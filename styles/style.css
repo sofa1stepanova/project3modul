@@ -20,5 +20,41 @@ img {
 }
 
 body {
-    min-height: 100vh;
+    margin: 50px;
+}
+
+.container {
+    display: flex;
+    gap: 103px;
+    flex-direction: column;
+}
+.block {
+    display: flex;
+    width: 100%;
+    height: 892px;
+    border-radius: 50px;
+}
+
+#block_1 {
+    background-image: url("../assets/bowl.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#block_2 {
+    background-image: url("../assets/2 слайд гор.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#block_3 {
+    background-image: url("../assets/3 слайд.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#block_4 {
+    background-image: url("../assets/4 frame.png");
+    background-size: cover;
+    background-position: center;
 }
