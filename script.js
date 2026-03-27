@@ -239,7 +239,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const winMessage = document.createElement('div');
         winMessage.id = 'win-message';
-        winMessage.innerHTML = 'ВЫ ОТСОРТИРОВАЛИ ВСЕ КАРТИНКИ, МОЛОДЕЦ!';
+        winMessage.innerHTML = 'ВЫ ОТСОРТИРОВАЛИ ВСЕ ФРУКТЫ, МОЛОДЕЦ!';
         winMessage.style.position = 'absolute';
         winMessage.style.top = '50%';
         winMessage.style.left = '50%';
